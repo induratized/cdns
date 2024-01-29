@@ -2,7 +2,7 @@
  * @license Highcharts JS v11.3.0 (2024-01-29)
  *
  * (c) 2009-2024 Highcharts AS
- *
+ * v2
  * License: www.highcharts.com/license
  */
 (function (root, factory) {
