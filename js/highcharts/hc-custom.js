@@ -5,6 +5,7 @@
  * v2
  * License: www.highcharts.com/license
  */
+console.log('loading highcharts...');
 (function (root, factory) {
     if (typeof module === 'object' && module.exports) {
         factory['default'] = factory;
