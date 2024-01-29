@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.3.0 (2024-01-25)
+ * @license Highcharts JS v11.3.0 (2024-01-29)
  *
  * (c) 2009-2024 Highcharts AS
  *
@@ -34490,16 +34490,14 @@
     });
     _registerModule(_modules, 'masters/custom.src.js', [_modules['Core/Globals.js'], _modules['Core/Renderer/SVG/SVGRenderer.js'], _modules['Core/Chart/Chart.js'], _modules['Series/Column/ColumnSeries.js'], _modules['Series/Line/LineSeries.js'], _modules['Series/Pie/PieSeries.js']], function (Highcharts, SVGRenderer, Chart, ColumnSeries, LineSeries, PieSeries) {
 
-        // // const exports = Highcharts;
+        const exports = Highcharts;
         exports.Renderer = SVGRenderer;
         exports.SVGRenderer = SVGRenderer;
         exports.Chart = Chart;
         exports.chart = Chart.chart;
-        // exports.BarSeries = BarSeries;
         exports.ColumnSeries = ColumnSeries;
         exports.LineSeries = LineSeries;
         exports.PieSeries = PieSeries;
-        // exports.AreaSplineSeries = AreaSplineSeries;
 
         return Highcharts;
     });
